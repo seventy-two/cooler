@@ -21,9 +21,9 @@ ImVec4 hex(unsigned rgb, float a = 1.0f) {
 struct Palette {
     ImVec4 bg, card, border, text, muted, accent, hover, frame, accentText, warn, good, bad;
 };
-const Palette kDark = {hex(0x15171C), hex(0x1E2128), hex(0x2B2F38), hex(0xE6E8EC), hex(0x8C929D), hex(0x5AA8FF),
+const Palette kDark = {hex(0x15171C), hex(0x1E2128), hex(0x2B2F38), hex(0xE6E8EC), hex(0x8C929D), hex(0xA78BFA),
                        hex(0x30353F), hex(0x262A33), hex(0xFFFFFF), hex(0xE3A73B), hex(0x4CC38A), hex(0xE5534B)};
-const Palette kLight = {hex(0xF2F3F5), hex(0xFFFFFF), hex(0xD5D9DF), hex(0x1F2328), hex(0x656D76), hex(0x0969DA),
+const Palette kLight = {hex(0xF2F3F5), hex(0xFFFFFF), hex(0xD5D9DF), hex(0x1F2328), hex(0x656D76), hex(0x8250DF),
                         hex(0xE4E7EB), hex(0xEEF0F3), hex(0xFFFFFF), hex(0x9A6700), hex(0x1A7F37), hex(0xCF222E)};
 const Palette* pal = &kDark;
 
